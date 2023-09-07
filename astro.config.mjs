@@ -2,10 +2,11 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
+import vercel from '@astrojs/vercel/serverless';
 
 // https://astro.build/config
 export default defineConfig({
-  // site: "https://astro-portfolio-uzair.vercel.app",
+  site: "https://muhammad-sandy-prastyo.vercel.app/",
   integrations: [
     tailwind(),
     sitemap({
@@ -16,4 +17,6 @@ export default defineConfig({
     }),
     robotsTxt(),
   ],
+  output: 'server',
+  adapter: vercel(),
 });

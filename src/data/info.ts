@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://muhammad-sandy-prastyo.vercel.app/",
   name: "Muhammad Sandy Prastyo",
   jobDescription: "Frontend Developer",
   about: `I'm Frontend Engineer with a Bachelor's degree in computer science and over 3 years of hands-on expertise. Proficient in HTML5, CSS, Javascript, Typescript, ReactJS, Redux, Micro Frontend, Single Page Applications, and Unit Testing, demonstrating strong analytical, design, logical, and programming skills. Adept at using Front End Frameworks like Bootstrap and Tailwind, with additional proficiency in Figma. Possesses a deep understanding of the Software Development Life Cycle and incorporates secure software development practices into projects. Well-versed in version control using GIT, consistently delivering clean, maintainable, and thoroughly-tested code. Exceptional troubleshooting skills and a commitment to building seamless, high-quality user experiences.
@@ -97,7 +97,7 @@ export const info = {
       title: "Telepandu",
       isFeatured: true,
       thumbnail: "https://play-lh.googleusercontent.com/xi-VvZQKAP_kb4oXNYShnJYzsgxndW7WaZ9gQ0e4pTRRGSJKERgth6aa1cKatpeZ9Fs=w240-h480-rw",
-      // githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      githubUrl: "",
       liveUrl: "https://play.google.com/store/apps/details?id=com.telepandu.pasien&hl=en-ID",
     },
   ],
